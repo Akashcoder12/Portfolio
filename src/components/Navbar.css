@@ -1,0 +1,17 @@
+.nav {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #555;
+    padding: 10px;
+}
+
+.nav .nav-item{
+      text-decoration: none;
+      color: #f3f3f3;
+}
+
+.nav-item:hover{
+      font-weight:700;
+}
+

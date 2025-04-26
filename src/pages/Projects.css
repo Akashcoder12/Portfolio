@@ -1,0 +1,42 @@
+.Projects{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.Projects .ProjectCard{
+      background-color:gainsboro;
+      padding: 20px;
+      margin:10px 10px;
+      text-align:start;
+      width: 40vw;
+      border-radius: 5px;
+}
+
+.Projects .ProjectCard:hover{
+      border: 1px solid gray;
+}
+
+.Projects .ProjectCard img{
+    width:100%;
+}
+
+
+.Projects .ProjectCard h3{
+      font-size:16px;
+      
+}
+
+.Projects .ProjectCard p{
+     font-size: 14px;
+     color: #666;
+     width:100%;
+     word-wrap: break-word;       /* ✅ Wrap long words */
+     overflow-wrap: break-word;   /* ✅ Safer with modern browsers */
+     white-space: normal;         /* ✅ Allow wrapping */
+}
+
+.Projects .ProjectCard p b{
+    color:#333;
+}

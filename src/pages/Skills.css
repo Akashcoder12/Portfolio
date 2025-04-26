@@ -1,0 +1,16 @@
+div{
+     background-color: #f4f4f4;
+}
+
+div h2{
+    text-align: center;
+   
+}
+
+div ul{
+      background-color:#ffff;
+      width: 80%;
+      border-radius: 5px;
+      padding: 20px;
+      margin-left: 10px; 
+    }
